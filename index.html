@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gesture Space</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script type="importmap">
+{
+  "imports": {
+    "three":"https://unpkg.com/three@0.170.0/build/three.module.js"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+<video id="video" autoplay playsinline></video>
+
+<div id="ui">
+<h1>🚀 Gesture Space</h1>
+
+<p id="mode">
+Mode :
+<span>Galaxy</span>
+</p>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.14"></script>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
